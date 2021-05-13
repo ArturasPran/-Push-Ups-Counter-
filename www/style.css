@@ -1,0 +1,102 @@
+/* Arturas Pranskunas
+ * This is the second part of "Push-Ups Counter"  project
+ * The project can be found at https://ehelper.tk/
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.header{
+	background-color:#46A049;
+	color: #ffffff;
+	padding: 20px;
+	width: 100%;
+
+}
+.wrapper {
+  margin: auto;
+  width: 50%;
+  padding: 1px;
+}
+input {
+    width : 150px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=button], input[type=submit] {
+    background-color: #335eff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 20px;
+}
+input:disabled {
+    background: #dddddd;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=button]:hover {
+    background-color: #686868;
+}
+input[type=submit]:hover{
+    background-color: #686868;
+}
+#messages {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    width:100%;
+    display: inline-block;
+    border:1px solid black;
+    max-height: 250px;
+    min-height: 250px;
+    overflow: scroll;
+}
+#messages span {
+    overflow-y: scroll;
+    overflow: scroll;
+}
+p {
+	text-align: center;
+	font-size: 80px;
+	padding: 1px 140px;
+	font-weight: bold;
+	
+}
+table{
+	width: 100%;
+}
+th, td {
+	padding: 15px;
+	text-align: left;
+	
+}
+#t01 th{
+	background-color: #F1F1F1;
+
+}
+td{
+	font-size: 30px;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
