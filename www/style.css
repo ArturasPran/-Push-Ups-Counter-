@@ -49,7 +49,7 @@ input:disabled {
 input[type=text]:focus {
     background-color: lightblue;
 }
-input[type=button]:hover {
+input[type=button]:hover:not([disabled]) {
     background-color: #686868;
 }
 input[type=submit]:hover{
